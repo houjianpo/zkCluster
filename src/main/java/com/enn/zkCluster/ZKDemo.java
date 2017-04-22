@@ -37,7 +37,7 @@ public class ZKDemo {
 	@SuppressWarnings("static-access")
 	private void createZKInstance() throws Exception {
 		// 连接到zk服务，多个服务可以用,分割写
-		zk = new ZooKeeper("10.4.82.161:3000,10.4.82.161:3001,10.4.82.161:3002", this.SESSION_TIMEOUT, this.wh);
+		zk = new ZooKeeper("10.4.82.161:3000,10.4.82.161:3001,10.4.82.161:3002,10.4.82.161:3003,10.4.82.161:3004", this.SESSION_TIMEOUT, this.wh);
 	}
 	
 	// zookeeper 操作
